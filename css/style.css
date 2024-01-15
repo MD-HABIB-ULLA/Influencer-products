@@ -197,13 +197,14 @@ body {
     align-items: center;
     gap: 1%;
     justify-content: left;
-    height: 1.4vw;
+    height: 1.3vw;
+    width: 40%;
 }
 
 .star p {
-    color: #5E6366;
-    font-family: poppins;
+    color: #3A3A3A;
     font-size: 1vw;
+    font-weight: 600; margin: auto;
 }
 
 .star svg {
@@ -214,9 +215,8 @@ body {
 .des {
     color: #787885;
     font-family: poppins;
-    font-size: .9vw;
-    font-weight: 700;
-    letter-spacing: 0.052vw;
+    font-size: 1vw;
+    font-weight: 600;
     margin-top: 1vw;
 }
 
@@ -227,10 +227,68 @@ body {
     font-weight: 400;
 }
 
+.see-btn {
+    text-align: right;
+}
+
+.pro-btn {
+    outline: none;
+    border: none;
+    margin-top: 2vw;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.pro-btn i {
+    margin-left: .5vw;
+}
+
 /* this is end of product section */
+/* this is product in one place */
+.one-place {
+    width: 77%;
+    display: flex;
+    margin: auto;
+    margin-top: 5vw;
+    align-items: center;
+    gap: 4%;
+}
 
+.pl-img {
+    width: 37%;
+}
 
+.pl-img img {
+    width: 100%;
+}
 
+.pl-text {
+    width: 60%;
+}
+
+.pl-text h3 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 5vw;
+}
+
+.pl-text p {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: .9vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3vw;
+}
+
+/* end of product in one place */
 
 
 
@@ -348,7 +406,8 @@ body {
         margin-top: 4vw;
         width: 18%;
     }
- /* product section */
+
+    /* product section */
 
     .product {
         width: 90%;
@@ -381,7 +440,7 @@ body {
     }
 
     .star p {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     .star svg {
@@ -390,13 +449,57 @@ body {
     }
 
     .des {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     .price {
         font-size: 7vw;
         margin-top: 2vw;
         margin-bottom: 4vw;
+    }
+
+    .see-btn {
+        text-align: center;
+    }
+
+    .pro-btn {
+        margin-top: 5vw;
+        font-size: 5vw;
+    }
+
+    .pro-btn i {
+        margin-left: .5vw;
+    }
+
+    /* this is product in one place */
+    .one-place {
+        width: 90%;
+        flex-direction: column-reverse;
+        margin-top: 9vw;
+        text-align: center;
+    }
+
+    .pl-img {
+        width: 100%;
+        margin-top: 10vw;
+    }
+
+
+    .pl-text {
+        width: 100%;
+    }
+
+    .pl-text h3 {
+        font-size: 9vw;
+        line-height: 9vw;
+        margin-bottom: 6vw;
+    }
+
+    .pl-text p {
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 6vw;
     }
 
 
